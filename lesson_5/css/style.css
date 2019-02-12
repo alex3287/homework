@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(211, 207, 151);
+}
+
+.first p{
+  color:#4499aa;
+  padding: 10px 10px 20px 10px;
+}
+
+.second{
+  color: #dd33ff;
+  padding: 20px 0 0 0;
+}
+
+.one{
+  color: #665a55;
+}
+
+.two{
+  color: #ff5055;
+}
+
+.three{
+  color: #276fdd;
+}
+
+.four{
+  color: #aa5a55;
+}
+
+.note{
+  color: black;
+}
+
+.five{
+  color: #56d095;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+dd{
+  text-align: justify;
+}
+.strik-text{
+  text-decoration: line-through;
+}
+
+.underlined-text{
+  text-decoration: underline;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.italic-text{
+  font-style: italic;
+}
+
+.book-cover{
+  border:2px solid rgb(31, 27, 27);
+  float: left;
+  margin: 3px 7px 7px 0;
+}
+
+.all-images{
+  border: 1px solid rgb(31, 27, 27);
+  float: right;
+  margin: 7px 0 7px 7px;
+  width: 300px;
+}
