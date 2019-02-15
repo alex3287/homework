@@ -1,0 +1,66 @@
+body {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: space-around; 
+  width: 1920px;
+  height: 723px; */
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 125px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  width: 263px;
+  height: 210px;
+  background-color: #ffffff;
+}
+
+.txt {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+}
+
+.cost {
+  width: 91px;
+  height: 15px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 55px;
+  border: 1px solid #23bac1;
+  text-align: center;
+}
+
+p {
+  color: #23bac1;
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  font-weight: 700;
+}

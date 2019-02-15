@@ -1,0 +1,70 @@
+body {
+  background-color: #ffffff;
+
+
+  /*opacity: 0.23;
+color: red; */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* width: 1140px; */
+  height: 2402px;
+}
+
+.item_1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  /* flex-basis: 420px; */
+}
+
+.picture {
+  background: url(../img/book.png) no-repeat;
+  /* background-size: cover; */
+  width: 404px;
+  height: 630px;
+  margin-left: 20px;
+}
+
+.text {
+  width: 404px;
+  height: 630px;
+}
+
+.item_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 408px;
+  border: 1px solid #ffffff;
+  background-color: #f2f2f2;
+}
+
+.icons {
+  /* что по ширене */
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item_3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  /* fim me */
+}
+
+.photo {
+  width: 25%;
+}
