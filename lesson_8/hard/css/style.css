@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+  /* узнать зачем это нужно */
+}
+body{
+  font-family: sans-serif;
+  color: #32325f;
+}
+.contener {
+  max-width: 1140px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 159px;
+}
+.brand{
+  color: #95989a;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 700;
+}
+.social a{
+  text-decoration: none;
+  margin-right: 20px;
+}
+.hero{
+  padding-top: 70px;
+  padding-bottom: 190px;
+  background-color: #f4f5f7;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-text{
+  width: 50%;
+}
+.subtitle{
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.title{
+  display: block;
+  font-size: 48px;
+  font-weight: 700; 
+  margin-bottom: 26px;
+}
+.description{
+  font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 16px;
+}
+.price-tag{
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.price{
+  display: block;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 49px;
+}
+.btn{
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  padding: 20px 30px;
+  color:#ffffff;
+  background-color: gray;
+}
+.btn-success{
+  background-color: #2dce89;
+  margin-right: 20px;
+}
+.btn-primary{
+  background-color: #5e72e4;
+}
+/* оформление секций */
+section{
+  /* отступ в секциях */
+padding-top: 100px;
+padding-bottom: 100px
+}
+.section-subtitle{
+  display: block;
+  font-size: 20px;
+font-weight: 400;
+margin-bottom: 16px;
+}
+.section-title{
+  display: block;
+  font-size: 48px;
+font-weight: 700;
+}
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.block{
+  width: 23%;
+  margin-left: 2%;
+}
+.block-text{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 40px 0;
+  line-height: 1.4;
+}
+footer{
+  background-color: #32325f;
+  color: #ffffff;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block{
+  width: 33%;
+}
+.footer-title{
+  font-size: 24px;
+font-weight: 700;
+margin-bottom: 35px;
+}
+footer a{
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+footer p{
+  line-height: 1.4;
+}
+.people{
+  background-color: #f4f5f7;
+}
+.people-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 64px;
+}
+.photo{
+  width: 30%;
+  margin-right: 2%;
+  margin-bottom: 36px;
+}
