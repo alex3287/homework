@@ -1,0 +1,62 @@
+header {
+  background-color: rgba(89, 83, 131, 0.132);
+  height: 150px;
+  padding-top: 10px;
+}
+
+.contener {
+  /* border: 1px solid red; */
+  max-width: 1140px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+}
+
+main {
+  background-color: #cccccc;
+}
+
+.title-modul {
+  text-align: center;
+}
+
+/* блоки для уроков 1-го модуля */
+.modul1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.lesson{
+  width: 30%; 
+  text-align: center;
+}
+.title-lesson {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.image{
+  margin-right: 5px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}
+.description-lesson{
+  display: inline-block;
+  margin-top: 15px;
+  text-align: justify;
+}
+.verdict{
+  color: red;
+  
+}
