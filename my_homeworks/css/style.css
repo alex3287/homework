@@ -1,7 +1,7 @@
 header {
-  background-color: rgba(89, 83, 131, 0.132);
-  height: 150px;
-  padding-top: 10px;
+  background-color: #fbfbfb;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .contener {
@@ -20,9 +20,53 @@ header {
 .title {
   text-align: center;
 }
+.introduction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
 
+.text-introduction{
+  width: 60%;
+}
+.title{
+  text-align: left;
+  color: #1f1f24;
+font-family: Tahoma;
+font-size: 35px;
+font-weight: 700
+}
+.subtitle {
+  display: block;
+  color: #8993ad;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 400
+}
+.subtitle>a{
+  color: #8993ad;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 400
+}
+.description{
+  color: #8993ad;
+  display: block;
+  font-size: 18px;
+font-weight: 400;
+  margin-top: 20px;
+  text-align: justify;
+}
+.my-photo{
+  width: 35%; 
+}
+img{
+  max-width: 100%;
+}
 main {
-  background-color: #cccccc;
+  padding-top: 20px;
+  padding-bottom: 20 px;
 }
 
 .title-modul {
