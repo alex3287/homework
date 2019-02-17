@@ -80,6 +80,7 @@ main {
   flex-wrap: wrap;
 }
 .lesson{
+  margin-top: 30px;
   width: 30%; 
   text-align: center;
 }
