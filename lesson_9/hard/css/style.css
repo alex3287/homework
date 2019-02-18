@@ -1,0 +1,33 @@
+.container{
+  padding-top: 70px;
+}
+.title{
+  color: #333333;
+font-family: Tahoma;
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 82px;
+}
+.cols{
+  text-align: center;
+}
+img{
+  display: block;
+  margin: 20px auto;
+}
+.subtitle{
+height: 34px;
+color: #333333;
+font-family: Tahoma;
+font-size: 16px;
+font-weight: 700;
+}
+
+.row{
+  display: flex;
+}
+.four{
+  order: -1;
+}
