@@ -1,0 +1,53 @@
+$color: #666666;
+$back-color: #131313
+$size: 42px;
+.footer
+  margin-top: 60px
+  background-color: $back-color
+  padding: 59px 0
+  color: $color
+  &-policy-link  
+    font-size: 12px
+  & p
+    margin-bottom: 14px
+  & a
+    color: $color
+    text-decoration: none
+    &:hover
+      color: #fff
+  & small
+    display: block
+    margin-top: $size+14
+    line-height: $size - 26
+    font-size: $size - 32
+    max-width: 80%
+  & ul
+    padding: 0
+    list-style: none
+    & li
+      line-height: $size - 10
+  &-contacts, &-social-links
+    text-align: right 
+  &-contacts_phone
+    font-weight: 400
+    font-size: $size - 22
+    color: #009adf
+  &-social-links li
+    display: inline-block
+    & a
+      display: inline-block
+      width: $size
+      height: $size
+      background-color: rgba(255,255,255,0.1)
+      text-align: center
+      border-radius: 50%
+      line-height: $size
+      margin-left: $size - 32
+      -webkit-transition: all 0.2s
+      transition: all 0.2s
+      &:hover
+        background-color: rgba(255, 255, 255, 0.9)
+        color: $back-color
+
+    
+  
