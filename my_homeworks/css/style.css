@@ -12,9 +12,13 @@ img {
   margin-right: 10px;
 }
 
+header {
+  background-color: #fbfbfb;
+}
+
 .introduction {
-  margin-top: 50px;
   text-align: justify;
+  padding: 100px 50px;
 }
 
 .subtitle {
@@ -22,9 +26,22 @@ img {
   margin: 10px 0;
 }
 
+.title {
+  color: #262626;
+  font-family: Tahoma;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 59.73px;
+}
+
 .title-modul {
   margin-top: 50px;
   text-align: center;
+  color: #262626;
+  font-family: Tahoma;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 59.73px;
 }
 
 .title-lesson {
@@ -55,6 +72,15 @@ img {
 
 .modul1 .verdict {
   color: red;
+}
+
+.source {
+  background-color: #fbfbfb;
+  padding: 50px;
+}
+
+.source-links {
+  margin-top: 50px;
 }
 
 footer {
