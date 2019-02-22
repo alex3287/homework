@@ -1,107 +1,68 @@
-header {
-  background-color: #fbfbfb;
-  padding-top: 40px;
-  padding-bottom: 20px;
+body {
+  font-family: sans-serif;
 }
 
-.contener {
-  /* border: 1px solid red; */
-  max-width: 1140px;
-  width: 96%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.title {
-  text-align: center;
-}
-.introduction{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 70px;
-}
-
-.text-introduction{
-  width: 60%;
-}
-.title{
-  text-align: left;
-  color: #1f1f24;
-font-family: Tahoma;
-font-size: 35px;
-font-weight: 700
-}
-.subtitle {
-  display: block;
-  color: #8993ad;
-font-family: Tahoma;
-font-size: 18px;
-font-weight: 400
-}
-.subtitle>a{
-  color: #8993ad;
-font-family: Tahoma;
-font-size: 18px;
-font-weight: 400
-}
-.description{
-  color: #8993ad;
-  display: block;
-  font-size: 18px;
-font-weight: 400;
-  margin-top: 20px;
-  text-align: justify;
-}
-.my-photo{
-  width: 35%; 
-}
-img{
+img {
   max-width: 100%;
 }
-main {
-  padding-top: 20px;
-  padding-bottom: 20 px;
+
+.social img {
+  height: 15px;
+  margin-right: 10px;
+}
+
+.introduction {
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.subtitle {
+  display: block;
+  margin: 10px 0;
 }
 
 .title-modul {
+  margin-top: 50px;
   text-align: center;
 }
 
-/* блоки для уроков 1-го модуля */
-.modul1{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.lesson{
-  margin-top: 30px;
-  width: 30%; 
-  text-align: center;
-}
 .title-lesson {
-  display: block;
   text-align: center;
-  margin-bottom: 10px;
 }
-.image{
-  margin-right: 5px;
-  display: block;
-  width: 100px;
+
+.modul1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.modul1 img {
   height: 100px;
-  margin: 10px auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
-.description-lesson{
-  display: inline-block;
-  margin-top: 15px;
+
+.modul1 a {
+  display: block;
+}
+
+.modul1 .description-lesson {
+  display: block;
+  margin-top: 20px;
   text-align: justify;
 }
-.verdict{
+
+.modul1 .verdict {
   color: red;
-  
 }
+
+footer {
+  background-color: #31293c;
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 59.73px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
